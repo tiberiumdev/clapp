@@ -1,0 +1,36 @@
+<h1>Flight Summary Report.</h1>
+<hr/>
+<div class="row-fuild" ng-repeat="timing in timings" >
+    <div class="col-sm-12"  >
+        {{timing.list}}
+    </div>
+    <div class="row" style="color:white;border-bottom:1px solid green">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-3">
+            {{timing.start | date : 'H:mm:ss'}}
+        </div>
+        <div class="col-sm-3">
+            {{timing.stop | date : 'H:mm:ss'}}
+        </div>
+        <div class="col-sm-3" style="color:cyan">
+            {{timing.duration | millisToTime }}
+        </div>
+
+    </div>
+</div>
+<div class="row-fuild" >
+    <div class="col-sm-3">
+
+    </div>
+    <div class="col-sm-3">
+
+    </div>
+    <div class="col-sm-3">
+        Total Duration
+    </div>
+    <div class="col-sm-3" style="width:250px;border-top:1px dashed green;color:yellow;font-weight:bold">
+        {{totalDuration | millisToTime }}
+    </div>
+</div>

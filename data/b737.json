@@ -1,0 +1,190 @@
+{
+    "name": "B737 Checklist Set",
+    "checklists": [
+        {
+            "name": "Flight Planning",
+            "steps": [
+                {
+                    "title": "FLIGHT PLAN",
+                    "status": "OBTAINED/FILED",
+                    "description": ""
+                },
+                {
+                    "title": "PASSENGER/CARGO",
+                    "status": "WEIGHTS SET",
+                    "description": ""
+                },
+                {
+                    "title": "FUEL",
+                    "status": "CACL/ORDERED",
+                    "description": ""
+                },
+                {
+                    "title": "WX BRFNG",
+                    "status": "OBTAINED",
+                    "description": ""
+                },
+                {
+                    "title": "NOTAMS",
+                    "status": "XCHKD",
+                    "description": ""
+                },
+                {
+                    "title": "CHARTS",
+                    "status": "RDY",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Aircraft Init",
+            "steps": [
+                {
+                    "title": "EXT INSPECT",
+                    "status": "COMPLETE",
+                    "description": ""
+                },
+                {
+                    "title": "FSX Flight Plan",
+                    "status": "LOADED",
+                    "description": ""
+                },
+                {
+                    "title": "FUEL",
+                    "status": "LOADED/VRFD",
+                    "description": ""
+                },
+                {
+                    "title": "DOORS/STAIRS",
+                    "status": "RDY",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Cockpit Init",
+            "steps": [
+                {
+                    "title": "PARKING BRAKE",
+                    "status": "SET",
+                    "description": ""
+                },
+                {
+                    "title": "BATTERY",
+                    "status": "ON",
+                    "description": ""
+                },
+                {
+                    "title": "HYDRAULIC PUMPS",
+                    "status": "OFF",
+                    "description": ""
+                },
+                {
+                    "title": "LANDING GEAR",
+                    "status": "DOWN",
+                    "description": ""
+                },
+                {
+                    "title": "START LEVERS",
+                    "status": "IDLE/CUTOFF",
+                    "description": ""
+                },
+                {
+                    "title": "OVRHD FUEL VALVS",
+                    "status": "LIT",
+                    "description": ""
+                },
+                {
+                    "title": "GROUND PWR",
+                    "status": "ON",
+                    "description": ""
+                },
+                                {
+                    "title" : "FIRE WRNG",
+                    "status" : "TESTED",
+                    "description" : ""
+                },
+                                {
+                    "title" : "EXITS",
+                    "status" : "ARMED",
+                    "description" : ""
+                },
+                                {
+                    "title" : "SIGNS",
+                    "status" : "BOTH ON",
+                    "description" : ""
+                },
+                                {
+                    "title" : "RECIRC FAN",
+                    "status" : "AUTO",
+                    "description" : ""
+                },
+                                {
+                    "title" : "ENG BLEEDS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                                {
+                    "title" : "BOARDING",
+                    "status" : "COMMENCE",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name": "APU Start",
+            "steps": [
+                {
+                    "title": "APU SWTCH",
+                    "status": "START",
+                    "description": ""
+                },
+                {
+                    "title": "APU EGT",
+                    "status": "STABLE",
+                    "description": ""
+                },
+                {
+                    "title": "APU GEN LGHTS",
+                    "status": "ON",
+                    "description": ""
+                },
+                {
+                    "title": "APU GENERATORS",
+                    "status": "ON",
+                    "description": ""
+                },
+                {
+                    "title": "APU BLEED",
+                    "status": "ON",
+                    "description": ""
+                },
+                {
+                    "title": "DUCT PRESS",
+                    "status": "ON L AND R",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "name": "Overhead",
+            "steps": [
+                {
+                    "title": "",
+                    "status": "",
+                    "description": ""
+                },
+            ]
+        },
+        {
+            "name": "APU Start",
+            "steps": [
+                {
+                    "title": "",
+                    "status": "",
+                    "description": ""
+                },
+            ]
+        }
+    ]
+}

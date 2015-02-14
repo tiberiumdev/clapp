@@ -1,0 +1,55 @@
+{
+    "name" : "B737 Checklist Set",
+    "checklists" : [
+        {
+            "name" : "On Simulator Startxxx",
+            "steps" : [
+                {
+                    "title" : "JET BRIDGE",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "BAGGAGE DOORS",
+                    "status" : "OPENED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL TRUCK",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "CABIN DOOR",
+                    "status" : "OPENED",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "The next list",
+            "steps" : [
+                {
+                    "title" : "Step 1",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "Step 2",
+                    "status" : "OPENED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL TRUCK",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "CABIN DOOR",
+                    "status" : "OPENED",
+                    "description" : ""
+                }
+            ]
+        }
+    ]
+}

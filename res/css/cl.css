@@ -1,0 +1,169 @@
+body {
+    font-family: 'Courier', cursive;
+    font-size: 28px;
+    background-color: black;
+    color: #7FF000;
+    line-height: normal !important;
+}
+
+.homeIcon {
+    position:relative;
+    color: #7FF000;
+    padding-right:.5em;
+    padding-top:.2em;
+}
+.homeIcon visited {
+    color: #7FF000;
+}
+.mainPanel {
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top : 25px;
+    line-height: 36px;
+}
+.mainPanel select {
+    width: 100%;
+    color: black;
+}
+.mainSubmit {
+    font-size:28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    border: 2px solid #7FF000;
+}
+.mainSubmit:hover {
+    color:green;
+}
+.checkListNextDisabled {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right:15px;
+    background-color: black;
+    opacity: .05 !important;
+    border: 2px dashed #7FF000;
+}
+.checkListNext{
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right:5%;
+    background-color: black;
+    border: 2px solid #7FF000;
+    color : #7FF000;
+}
+.checkListNext:hover {
+    color:green;
+}
+
+.coldComputerOption {
+    margin-top:30px;
+    line-height: 24px;
+}
+h1 {
+    color: white;
+}
+
+.checklistBox h1{
+    padding-left:25px;
+}
+.checklistTitle {
+    color:cyan;
+    border-bottom: 1px solid white;
+}
+
+.checklist {
+    padding-left:0%;
+}
+.checklist li {
+    list-style: none;
+/*    line-height: 24px;*/
+    border-bottom:1px dashed;
+    margin: 10px 5% 0% 25px;
+/*
+    margin-top:10px;
+    margin-right:5%;
+    margin-left:1%;
+    margin-bottom:25px;
+*/
+}
+
+.checklist li span {
+    cursor:default;
+    background-color:black;
+}
+.checklist span + span  {
+    float: right;
+    padding-left: 0.53em;
+    background: black;
+}
+
+.aircraftTypeText {
+    margin-left:2%;
+    color:green;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+input[type=checkbox] + label {
+    cursor:pointer;
+    height: 34px;
+    width: 34px;
+    display:inline-block;
+    padding: 0 0 0 0px !important;
+    border: 2px solid #0080FF;
+    background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+input[type=checkbox]:checked + label {
+    cursor:pointer;
+    background: #7FF000;
+    height: 34px;
+    width: 34px;
+    display:inline-block;
+    padding: 0 0 0 0px !important;
+    text-align:center;
+}
+
+.disclaimer {
+    font-size:12px;
+    margin-top:60px;
+}
+
+.disclaimerbox{
+    border: 1px solid green;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 490px) {
+    body {
+        font-size:12px;
+    }
+    h1 {
+        font-size:18px !important;
+    }
+    .checkListNext {
+        font-size:18px !important;
+    }
+    .mainSubmit {
+        font-size:18px !important;
+    }
+    input[type=checkbox] + label {
+        height: 24px;
+        width: 24px;
+    }
+    input[type=checkbox]:checked + label {
+        height: 24px;
+        width: 24px;
+    }
+
+}

@@ -1,0 +1,21 @@
+<div class="checklistBox">
+    <h1>Checklist: <span class="checklistTitle">{{checkList.name}}</span></h1>
+    <hr/>
+
+    <ul class="checklist" >
+        <li ng-repeat="item in checkList.steps" id="checkListItem{{$index}}">
+            <input type="checkbox" value="None" id="checkListBox{{$index}}" name="checkListBox{{$index}}" />
+            <label for="check{{$index}}" id="lblCheck{{$index}}" ng-click="checklistItemChecked($index)">&nbsp;</label>
+            <span id="checkTitle{{$index}}" title="{{item.description}}">{{item.title}}</span>
+            <span class="spacer"></span>
+            <span id="checkStatus{{$index}}">{{item.status}}</span>
+
+        </li>
+    </ul>
+</div>
+<hr/>
+<div class="row-fluid">
+    <span class="pull-left aircraftTypeText">Aircraft: {{selectedAircraft}}</span>
+    <button id="btnNext" type="button" class="btn checkListNextDisabled disabled pull-right" ng-click="loadNextPage();">Next >></button>
+</div>
+

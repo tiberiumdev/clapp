@@ -1,0 +1,697 @@
+{
+    "name" : "A319 Checklist Set",
+    "checklists" : [
+        {
+            "name" : "On Simulator Start",
+            "steps" : [
+                {
+                    "title" : "JET BRIDGE",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "BAGGAGE DOORS",
+                    "status" : "OPENED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL TRUCK",
+                    "status" : "CALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "CABIN DOOR",
+                    "status" : "OPENED",
+                    "description" : ""
+                },
+                {
+                    "title" : "PARKING BRAKE",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "SEATBELT/NO SMOKE SIGNS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "APU",
+                    "status" : "STARTED",
+                    "description" : ""
+                },
+                {
+                    "title" : "GENERATORS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "PROBE HEAT",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "ANTI-ICE",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "HYDROLYIC PUMPS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "SQUAWK",
+                    "status" : "STANDBY",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Flight Planning",
+            "steps" : [
+                {
+                    "title" : "vasFMC PERFS",
+                    "status" : "LOADED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FSX Flight Plan",
+                    "status" : "LOADED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FSINN Flight Plan",
+                    "status" : "LOADED/SENT",
+                    "description" : ""
+                },
+                {
+                    "title" : "VAFS",
+                    "status" : "LOADED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL/PAYLOAD",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "CLEARANCE",
+                    "status" : "REQUEST",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Before Push Back",
+            "steps" : [
+                {
+                    "title" : "DOORS",
+                    "status" : "SHUT/ALL",
+                    "description" : ""
+                },
+                {
+                    "title" : "JET BRIDGE",
+                    "status" : "RECALLED",
+                    "description" : ""
+                },
+                {
+                    "title" : "OBSTACLES",
+                    "status" : "CLEAR",
+                    "description" : ""
+                },
+                {
+                    "title" : "CLEARANCE",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Before Start",
+            "steps" : [
+                {
+                    "title" : "COCKPIT PREP",
+                    "status" : "COMPLETE(BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "PINS AND COVERS",
+                    "status" : "REMOVED",
+                    "description" : ""
+                },
+                {
+                    "title" : "SIGNS",
+                    "status" : "CONFIRM/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "ADIRS",
+                    "status" : "NAV",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL QUANITY",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "ALTIMER/BARO REF",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "INITIAL ALTITUDE",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "INITIAL AIRSPEED",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "MOBILE PHONES",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "A/SKID & NW STEERING",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "WINDOWS/DOORS",
+                    "status" : "CLOSED (BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "BEACON LIGHT",
+                    "status" : "ON/AUTO",
+                    "description" : ""
+                },
+                {
+                    "title" : "THR LEVERS",
+                    "status" : "IDLE",
+                    "description" : ""
+                },
+                {
+                    "title" : "PARKING BRAKE",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Engine Start",
+            "steps" : [
+
+                {
+                    "title" : "ENG START SELECTOR",
+                    "status" : "IGN/START",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENG 1 MASTER SWITH",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENG 1 START",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENG 2 MASTER SWITH",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENG 2 START",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "After Start",
+            "steps" : [
+                {
+                    "title" : "ENG START SELECTOR",
+                    "status" : "NORM",
+                    "description" : ""
+                },
+                {
+                    "title" : "ANTI-ICE",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "ECAM STATUS",
+                    "status" : "CHECKED",
+                    "description" : ""
+                },
+                {
+                    "title" : "PITCH TRIM",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "RUDDER TRIM",
+                    "status" : "ZERO",
+                    "description" : ""
+                },
+                {
+                    "title" : "GROUD CREW",
+                    "status" : "CLEAR",
+                    "description" : ""
+                },
+                {
+                    "title" : "A/SKID & NW STEERING",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "SQUAWK",
+                    "status" : "MODE C",
+                    "description" : ""
+                },
+                {
+                    "title" : "TAXI LIGHTS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "TAXI CLEARANCE",
+                    "status" : "RCVD",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Before Takeoff",
+            "steps" : [
+                {
+                    "title" : "FLIGHT CONTROLS",
+                    "status" : "CHECKED (BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "FLT INST",
+                    "status" : "CHECK (BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "BRIEFING",
+                    "status" : "CONFIRMING",
+                    "description" : ""
+                },
+                {
+                    "title" : "FLAPS",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "V1, Vr",
+                    "status" : "SET & CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "ATC + TCAS",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "RADAR & PWS",
+                    "status" : "SECURED FOR TO",
+                    "description" : ""
+                },
+                {
+                    "title" : "CABIN",
+                    "status" : "TO NO BLUE",
+                    "description" : ""
+                },
+                {
+                    "title" : "ECAM MESSAGE",
+                    "status" : "CORRECT",
+                    "description" : ""
+                },
+                {
+                    "title" : "LAPTOP",
+                    "status" : "STOWED",
+                    "description" : ""
+                },
+                {
+                    "title" : "STROBE LIGHTS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "LANDING LIGHTS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENGINE MODE SEL",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "PACKS",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "After Takeoff",
+            "steps" : [
+                {
+                    "title" : "LANDING GEAR",
+                    "status" : "UP",
+                    "description" : ""
+                },
+                {
+                    "title" : "10k TAXI LIGHTS",
+                    "status" : "OFF/AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "FLAPS",
+                    "status" : "ZERO",
+                    "description" : ""
+                },
+                {
+                    "title" : "PACKS",
+                    "status" : "ON",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Climb",
+            "steps" : [
+                {
+                    "title" : "10k CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "10k LANDING LIGHTS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "10k AS/VS BEST CLIMB",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "18k ALTIMETER",
+                    "status" : "29.92",
+                    "description" : ""
+                },
+                {
+                    "title" : "25k AIRSPEED INDICATOR",
+                    "status" : "TO MACH",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Top of Climb/Cruise",
+            "steps" : [
+                {
+                    "title" : "CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "FLIGHT BRIEFING",
+                    "status" : "GIVEN",
+                    "description" : ""
+                },
+                {
+                    "title" : "AIRSPEED",
+                    "status" : "MACH CORRECT",
+                    "description" : ""
+                },
+                {
+                    "title" : "APU",
+                    "status" : "OFF",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Cruise",
+            "steps" : [
+                {
+                    "title" : "DESCENT BRIEFING",
+                    "status" : "GIVEN",
+                    "description" : ""
+                },
+                {
+                    "title" : "NAV RADIOS",
+                    "status" : "ALIGNED FOR APPROACH",
+                    "description" : ""
+                },
+                {
+                    "title" : "SEAT BELT SIGN",
+                    "status" : "OFF AS AVAILABLE",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Top of Decent",
+            "steps" : [
+                {
+                    "title" : "CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "SIGNS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "AIRSPEED",
+                    "status" : "SET TO DESCENT",
+                    "description" : ""
+                },
+                {
+                    "title" : "ALTIMETER",
+                    "status" : "SET TO ARVL AIRPORT",
+                    "description" : ""
+                }
+
+            ]
+        },
+        {
+            "name" : "Approach",
+            "steps" : [
+                {
+                    "title" : "10k CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "10k LANDING LIGHTS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "AIRSPEED",
+                    "status" : "TAS CORRECT",
+                    "description" : ""
+                },
+                {
+                    "title" : "BRIEFINGS",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "ALTIMETER",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "ECAM STATUS",
+                    "status" : "CHECK",
+                    "description" : ""
+                },
+                {
+                    "title" : "V.BUGS",
+                    "status" : "SET (BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "BARO/MDA/DH",
+                    "status" : "SET (BOTH)",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENGINE MODE SEL",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "AUTOBRAKE",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Landing",
+            "steps" : [
+                {
+                    "title" : "CABIN CREW",
+                    "status" : "ADVISED/DING",
+                    "description" : ""
+                },
+                {
+                    "title" : "A/THR",
+                    "status" : "SPEED/OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "GO AROUND ALT",
+                    "status" : "SET",
+                    "description" : ""
+                },
+                {
+                    "title" : "ECAM MEMO",
+                    "status" : "CONFIRMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "LANDING GEAR",
+                    "status" : "DOWN",
+                    "description" : ""
+                },
+                {
+                    "title" : "SIGNS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "SPOILERS",
+                    "status" : "ARMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "FLAPS",
+                    "status" : "SET",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "After Landing",
+            "steps" : [
+                {
+                    "title" : "FLAPS",
+                    "status" : "UP",
+                    "description" : ""
+                },
+                {
+                    "title" : "SPOILERS",
+                    "status" : "DISARMED",
+                    "description" : ""
+                },
+                {
+                    "title" : "APU",
+                    "status" : "START",
+                    "description" : ""
+                },
+                {
+                    "title" : "RADAR/TCAS/PWS",
+                    "status" : "OFF/STBY",
+                    "description" : ""
+                },
+                {
+                    "title" : "LANDING/STROBE LIGHTS",
+                    "status" : "OFF",
+                    "description" : ""
+                }
+            ]
+        },
+        {
+            "name" : "Parking",
+            "steps" : [
+                {
+                    "title" : "APU BLEED",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "ENGINES",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "PARK BRK & CHOCKS",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "SQUAWK",
+                    "status" : "STNDBY",
+                    "description" : ""
+                },
+                {
+                    "title" : "JET BRIDGE",
+                    "status" : "CALLED FOR",
+                    "description" : ""
+                },
+                {
+                    "title" : "BAGGAGE DOORS",
+                    "status" : "OPEN",
+                    "description" : ""
+                },
+                {
+                    "title" : "SEAT BELTS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "EXT LT",
+                    "status" : "AS RQRD",
+                    "description" : ""
+                },
+                {
+                    "title" : "FUEL PUMPS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "HYDRO PUMPS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "GENERATORS",
+                    "status" : "OFF",
+                    "description" : ""
+                },
+                {
+                    "title" : "CAPT'S MOBILE PHONE",
+                    "status" : "ON",
+                    "description" : ""
+                },
+                {
+                    "title" : "MAIN DOOR",
+                    "status" : "OPEN",
+                    "description" : ""
+                }
+            ]
+        }
+    ]
+}

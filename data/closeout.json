@@ -1,0 +1,40 @@
+{
+    "name" : "Close Out",
+    "steps" :[
+        {
+            "title" : "vasFMC",
+            "status" : "OFF",
+            "description" : ""
+        },
+        {
+            "title" : "PIREP",
+            "status" : "SUBMITTED",
+            "description" : ""
+        },
+        {
+            "title" : "PIREP SFTWR",
+            "status" : "DISCONNECT/TURN OFF",
+            "description" : ""
+        },
+        {
+            "title" : "FSInnUI - VATSIM",
+            "status" : "DISCONNECT/TURN OFF",
+            "description" : ""
+        },
+        {
+            "title" : "Weather Engine",
+            "status" : "STOP/QUIT",
+            "description" : "Stop weather engine"
+        },
+        {
+            "title" : "FS Wideclient",
+            "status" : "AS RQRD",
+            "description" : ""
+        },
+        {
+            "title" : "Flight Simulator",
+            "status" : "STOP/QUIT",
+            "description" : ""
+        }
+    ]
+}

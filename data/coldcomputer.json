@@ -1,0 +1,70 @@
+{
+    "name" : "Cold Computer",
+    "steps" :[
+        {
+            "title" : "Flight Simulator",
+            "status" : "START",
+            "description" : "Start your Flight simulator as an Admin"
+        },
+        {
+            "title" : "FS Wideclient",
+            "status" : "START",
+            "description" : "Start FS Wide Client on secondary PC as an Admin"
+        },
+        {
+            "title" : "FSFDTCP Primary Computer",
+            "status" : "STOP/OFF",
+            "description" : "Shutdown FSFDTCP on primary computer"
+        },
+        {
+            "title" : "FSInnUI - 2nd",
+            "status" : "START",
+            "description" : "Start FS Inn on secondary PC as an Admin"
+        },
+        {
+            "title" : "FSFDTCP - 2nd",
+            "status" : "STARTED & VERIFIED",
+            "description" : "Start FSFDTCP on secondary computer and ensure voice channels"
+        },
+        {
+            "title" : "FSInnUI Callsign",
+            "status" : "ENTER/VALIDATE",
+            "description" : "Verify the call sign in FSInn is what you need for this flight"
+        },
+        {
+            "title" : "FSInnUI - VATSIM",
+            "status" : "CONNECT",
+            "description" : "Click the VATSIM connect button and verify good connection"
+        },
+        {
+            "title" : "SQUAWK",
+            "status" : "STANDBY",
+            "description" : "Click the VATSIM connect button and verify good connection"
+        },
+        {
+            "title" : "FSFDTCP - VATSIM Voice",
+            "status" : "ENABLED",
+            "description" : "Make sure all greens for voice comms in FSFDTCP"
+        },
+        {
+            "title" : "FSInnUI - Modes",
+            "status" : "ENGAGED",
+            "description" : "Open up the ATC, Wx, Chat, and Radar windows"
+        },
+        {
+            "title" : "VAFS",
+            "status" : "STARTED",
+            "description" : "Open up the ATC, Wx, Chat, and Radar windows"
+        },
+        {
+            "title" : "vasFMC",
+            "status" : "STARTED",
+            "description" : "Start vasFMC on main computer and verify good connection"
+        },
+        {
+            "title" : "Weather Engine",
+            "status" : "START",
+            "description" : "Start weather engine"
+        }
+    ]
+}
